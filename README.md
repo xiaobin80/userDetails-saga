@@ -32,6 +32,7 @@ This is the demo that shows a datasheet.
 
 ## Run
 ```bash
+npm install
 npm start
 ```
 
