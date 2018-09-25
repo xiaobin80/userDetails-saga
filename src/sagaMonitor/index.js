@@ -1,6 +1,6 @@
 /*eslint-disable no-console*/
-
-import { is, asEffect } from 'redux-saga/utils'
+import * as is from '@redux-saga/is'
+import { asEffect } from 'redux-saga/utils'
 
 const PENDING = 'PENDING'
 const RESOLVED = 'RESOLVED'
