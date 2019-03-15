@@ -44,19 +44,16 @@ cd async
 ```
 
 ```bash
-npm install --save ajv
-npm install --save redux
 npm install --save react-redux
-npm install --save @babel/polyfill
+npm install --save redux-saga
 npm install --save isomorphic-fetch
-npm install --save redux-saga@1.0.0-beta.2
+npm install --save @babel/polyfill
 ```
 
 ### async template
-    v1.0.0-beta.1
+    v1.0.2
 1. copy directorys
     1) Copy the examples/async/src from the redux-saga to your async/src.
-    2) copy the examples/sagaMonitor from the redux-saga to your async/src.
 2. rename main.js
     async/src
     Rename main.js to index.js
@@ -81,12 +78,7 @@ import './App.css';
         ...
     </div>
 ```
-5. modify configureStore.js
-    src/store
-    Modify the reference Sagamonitor path to the following code.
-```bash
-import sagaMonitor from '../sagaMonitor'
-```
+
 ## Reference
 * [async(redux-saga)](https://github.com/redux-saga/redux-saga/tree/master/examples/async)
 * [demo-jpa](https://github.com/xiaobin80/demo-jpa-spring-boot2-mysql)
