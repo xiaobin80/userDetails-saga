@@ -44,13 +44,13 @@ cd async
 ```
 
 ```bash
+npm install --save react
+npm install --save react-dom
+npm install --save react-scripts
+npm install --save @babel/polyfill
 npm install --save react-redux
 npm install --save redux-saga
 npm install --save isomorphic-fetch
-npm install --save @babel/polyfill
-npm install --save react-scripts
-npm install --save react
-npm install --save react-dom
 ```
 
 ### async template
