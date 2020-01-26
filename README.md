@@ -48,9 +48,6 @@ cd async
 ```
 
 ```bash
-npm install --save react
-npm install --save react-dom
-npm install --save react-scripts
 npm install --save @babel/polyfill
 npm install --save react-redux
 npm install --save redux-saga
@@ -58,7 +55,7 @@ npm install --save isomorphic-fetch
 ```
 
 ### async template
-    v1.0.2
+    v1.1.3
 1. copy directorys
     1) Copy the examples/async/src from the redux-saga to your async/src.
 2. rename main.js
@@ -70,7 +67,7 @@ npm install --save isomorphic-fetch
     ->
     async/src/containers
     App.css && logo.svg
-4. modify App.js
+4. modify containers/App.js
     Add the following two blocks of code.
 ```bash
 import logo from './logo.svg';
