@@ -46,6 +46,10 @@ Note: Build Async from 0 onwards. If you just run, ignore this step.
 create-react-app async
 cd async
 ```
+If you cannot use the original registry of npm, then
+```bash
+npm config set registry https://registry.npm.taobao.org
+```
 
 ```bash
 npm install --save @babel/polyfill
