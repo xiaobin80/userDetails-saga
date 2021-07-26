@@ -7,7 +7,7 @@ import { selectedRedditSelector, postsByRedditSelector } from '../reducers/selec
 
 export function fetchPostsApi(reddit) {
   //return fetch(`http://www.reddit.com/r/${reddit}.json`)
-  return fetch(`http://192.168.0.103:8080/${reddit}`)
+  return fetch(`http://192.168.0.95:8080/${reddit}`)
     .then(response => response.json())
     //.then(json => json.data.children.map(child => child.data))
 }
