@@ -43,7 +43,7 @@ npm cache clean --force
 ## Building Async
 Note: Build Async from 0 onwards. If you just run, ignore this step.
 ```bash
-create-react-app async
+npx create-react-app async
 cd async
 ```
 If you cannot use the original registry of npm, then
@@ -52,7 +52,7 @@ npm config set registry https://registry.npm.taobao.org
 ```
 
 ```bash
-npm install --save @babel/polyfill
+npm install --save web-vitals
 npm install --save react-redux
 npm install --save redux-saga
 npm install --save isomorphic-fetch
