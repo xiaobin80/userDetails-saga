@@ -46,13 +46,9 @@ Note: Build Async from 0 onwards. If you just run, ignore this step.
 npx create-react-app async
 cd async
 ```
-If you cannot use the original registry of npm, then
-```bash
-npm config set registry https://registry.npm.taobao.org
-```
 
 ```bash
-npm install --save web-vitals
+npm install --save redux
 npm install --save react-redux
 npm install --save redux-saga
 npm install --save isomorphic-fetch
